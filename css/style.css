@@ -1,0 +1,425 @@
+body {
+    font-size: 75%;
+    font-family: "MS PGothic", Arial, "Hiragino Kaku Gothic ProN", "Osaka", sans-serif
+}
+
+a, a:visited {
+    color: #1d3994;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3dD9E4;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+.clear{
+    clear:both;
+}
+
+ul.nostyle, ul.nostyle li {
+    list-style: none;
+    padding: 0;
+}
+
+ul.nostyle li {
+    display: inline;
+}
+
+.box {
+    border: solid 1px #96CC66;
+    background-color: #ECFFEF;
+    margin-bottom: 4px;
+}
+
+
+.hd {
+    overflow: hidden;
+    background-color: rgba(200, 250, 250, 0.2);
+}
+
+#wrapper {
+    min-width: 950px;
+    width: 74.2em;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#header img.logo{
+    width: 300px;
+}
+
+#header .micons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    margin-top: 10px;
+}
+
+#header .micons li {
+    position: absolute;
+    width: 76px;
+    height: 58px;
+}
+
+#header .micons li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 36px;
+}
+
+#header .micons .label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#header .micon1{
+    left: 0;
+}
+#header .micon1 a{
+    background-image: url('../img/travel.png');
+}
+
+#header li.micon2{
+    left: 80px;
+}
+#header .micon2 a{
+    background-image: url('../img/shopping.png');
+}
+
+#header li.micon3{
+    right: 80px;
+}
+#header .micon3 a{
+    background-image: url('../img/card.png');
+}
+
+#header li.micon4{
+    right: 0;
+}
+#header .micon4 a{
+    background-image: url('../img/mail.png');
+}
+
+
+#navi{
+    float:left;
+    width: 17.5%;
+    min-width: 170px;
+}
+
+#contentbox .sidemenu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#contentbox ul{
+    list-style: none;
+    padding: 2px;
+}
+
+#contentbox li{
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    line-height: 22px
+}
+
+#contentbox .shopping {
+    background-image: url('../img/shopping.png');
+}
+
+#contentbox .auction {
+    background-image: url('../img/auction.png');
+}
+
+#contentbox .travel {
+    background-image: url('../img/travel.png');
+}
+
+#contentbox .news {
+    background-image: url('../img/news.png');
+}
+
+#contentbox .weather {
+    background-image: url('../img/weather.png');
+}
+
+#navi h2 {
+    margin: 0;
+    font-weight: normal;
+    padding: 3px 7px 2px;
+    background-color: white;
+}
+
+#navi ul {
+    margin: 0;
+}
+
+
+#division{
+    float: right;
+    min-width: 770px;
+    width: 81%;
+
+    position: relative;
+}
+
+#main{
+    float: left;
+    min-width: 410px;
+    width: 53%;
+    border: solid 1px #96CC66;
+
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#main a.title {
+    font-size: 17px;
+    padding-left: 4px;
+}
+
+#topicsbox {
+    overflow: hidden;
+    padding: 8px;
+}
+
+#topicindex {
+    float: left;
+    width: 63.5%
+}
+
+#topicindex .more {
+    margin: 4px;
+}
+
+#topicdetail {
+    padding: 5px;
+    float: right;
+    width: 30%;
+    background-color: lightgray;
+}
+
+#topicdetail .photo {
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/mii.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.hd .title {
+    float: left;
+}
+
+.hd .subtitle {
+    float: right;
+}
+
+#sub {
+    float: right;
+    min-width: 350px;
+    width: 45.45%;
+}
+
+#personalbox {
+    border: solid 1px #96CC66;
+    background-color: #ECFFEF;
+    padding: 6px;
+}
+
+#pbhello {
+    margin: 0;
+    font-weight: normal;
+    padding: 3px 0;
+}
+
+#personalbox .idinfo {
+    list-style: none;
+    padding: 2px;
+    overflow: hidden;
+}
+
+#personalbox .loginout {
+    float: left;
+}
+
+#personalbox .info {
+    float: right;
+    padding: 2px;
+}
+
+#personalbox .info a {
+    background-color: white;
+    border: solid 1px #999;
+    padding: 2px;
+}
+
+#personalbox .pbsection {
+    border: solid 1px #96CC66;
+    margin-bottom: 4px;
+}
+
+#personalbox .mail {
+    background-color: white;
+    padding-left: 36px;
+    background-image: url('../img/mail.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 4px 50%;
+
+    height: 30px;
+    line-height: 30px;
+}
+
+#personalbox .mail .new{
+    background-color: orangered;
+    color: white;
+    padding: 3px;
+    position: relative;
+    top: -10px;
+    left: 1px;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+#personalbox .weather h3{
+    margin: 4px 4px;
+    padding-left: 2px;
+}
+
+#personalbox .wicon {
+    width: 32px;
+    vertical-align: middle;
+}
+
+#personalbox .weather .hot {
+    color: red;
+}
+
+#personalbox .weather .cold {
+    color: dodgerblue;
+}
+
+#personalbox table {
+    background-color: white;
+    width: 100%;
+    margin-top: 4px;
+}
+
+#personalbox table th{
+    padding: 4px 0;
+}
+
+#personalbox table td {
+    padding: 3px 0 4px;
+}
+
+#companybox ul {
+    padding: 3px;
+    line-height: 15px;
+}
+
+#searchbox {
+    border: solid 1px #96CC66;
+    background-color: #ECFFEF;
+    padding: 4px 0 8px;
+    margin-bottom: 8px;
+}
+
+#searchbox ul {
+    list-style: none;
+    padding: 0;
+    width: 58%;
+    overflow: hidden;
+    margin: 4px auto;
+}
+
+#searchbox li {
+    float: left;
+    padding-right: 15px;
+}
+
+#searchbox form{
+    width: 58%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#searchtext {
+    line-height: 0;
+    width: 72.5%;
+    min-width: 400px;
+    height: 34px;
+    float: left;
+    font-size: 113%;
+
+    box-sizing: border-box;
+}
+
+.searchbutton {
+    font-size: 106%;
+    line-height: 1.29;
+    height: 34px;
+    width: 25.3%;
+    color: #fff;
+    background-color: #38f;
+    border-color: #38f;
+    margin-left: 5px;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+#footer {
+    margin-top: 10px;
+    clear: both;
+}
+
+#footer .connect {
+    text-align: center;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer li:first-child:before {
+    content: ""
+}
+
+#footer li:before {
+    content: " - "
+}
+
+#footer address {
+    text-align: center;
+}
+
+
