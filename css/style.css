@@ -33,9 +33,7 @@ ul.nostyle li {
 .box {
     border: solid 1px #96CC66;
     background-color: #ECFFEF;
-    margin-bottom: 4px;
 }
-
 
 .hd {
     overflow: hidden;
@@ -44,6 +42,7 @@ ul.nostyle li {
 
 #wrapper {
     min-width: 950px;
+    width: 74.2em;
     width: 74.2em;
     margin: 0 auto;
 }
@@ -128,6 +127,10 @@ ul.nostyle li {
     min-width: 170px;
 }
 
+#navi .box {
+    margin-bottom: 4px;
+}
+
 #contentbox .sidemenu {
     list-style: none;
     padding-left: 10px;
@@ -177,23 +180,14 @@ ul.nostyle li {
     margin: 0;
 }
 
-
-#division{
-    float: right;
-    min-width: 770px;
-    width: 81%;
-
-    position: relative;
-}
-
 #main{
     float: left;
-    min-width: 410px;
-    width: 53%;
+    width: 423px;
     border: solid 1px #96CC66;
 
     line-height: 1.5;
     margin-bottom: 10px;
+    margin-left: 4px;
 }
 
 #main a.title {
@@ -240,13 +234,7 @@ ul.nostyle li {
 
 #sub {
     float: right;
-    min-width: 350px;
-    width: 45.45%;
-}
-
-#personalbox {
-    border: solid 1px #96CC66;
-    background-color: #ECFFEF;
+    width: 332px;
     padding: 6px;
 }
 
@@ -256,33 +244,33 @@ ul.nostyle li {
     padding: 3px 0;
 }
 
-#personalbox .idinfo {
+#sub .idinfo {
     list-style: none;
     padding: 2px;
     overflow: hidden;
 }
 
-#personalbox .loginout {
+#sub .loginout {
     float: left;
 }
 
-#personalbox .info {
+#sub .info {
     float: right;
     padding: 2px;
 }
 
-#personalbox .info a {
+#sub .info a {
     background-color: white;
     border: solid 1px #999;
     padding: 2px;
 }
 
-#personalbox .pbsection {
+#sub .pbsection {
     border: solid 1px #96CC66;
     margin-bottom: 4px;
 }
 
-#personalbox .mail {
+#sub .mail {
     background-color: white;
     padding-left: 36px;
     background-image: url('../img/mail.png');
@@ -294,7 +282,7 @@ ul.nostyle li {
     line-height: 30px;
 }
 
-#personalbox .mail .new{
+#sub .mail .new{
     background-color: orangered;
     color: white;
     padding: 3px;
@@ -305,35 +293,35 @@ ul.nostyle li {
     font-weight: bold;
 }
 
-#personalbox .weather h3{
+#sub .weather h3{
     margin: 4px 4px;
     padding-left: 2px;
 }
 
-#personalbox .wicon {
+#sub .wicon {
     width: 32px;
     vertical-align: middle;
 }
 
-#personalbox .weather .hot {
+#sub .weather .hot {
     color: red;
 }
 
-#personalbox .weather .cold {
+#sub .weather .cold {
     color: dodgerblue;
 }
 
-#personalbox table {
+#sub table {
     background-color: white;
     width: 100%;
     margin-top: 4px;
 }
 
-#personalbox table th{
+#sub table th{
     padding: 4px 0;
 }
 
-#personalbox table td {
+#sub table td {
     padding: 3px 0 4px;
 }
 
@@ -343,8 +331,6 @@ ul.nostyle li {
 }
 
 #searchbox {
-    border: solid 1px #96CC66;
-    background-color: #ECFFEF;
     padding: 4px 0 8px;
     margin-bottom: 8px;
 }
