@@ -41,9 +41,7 @@ ul.nostyle li {
 }
 
 #wrapper {
-    min-width: 950px;
-    width: 74.2em;
-    width: 74.2em;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -123,8 +121,7 @@ ul.nostyle li {
 
 #navi{
     float:left;
-    width: 17.5%;
-    min-width: 170px;
+    width: 170px;
 }
 
 #navi .box {
@@ -182,7 +179,7 @@ ul.nostyle li {
 
 #main{
     float: left;
-    width: 423px;
+    width: 433px;
     border: solid 1px #96CC66;
 
     line-height: 1.5;
